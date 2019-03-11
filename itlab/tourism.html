@@ -6,15 +6,61 @@
 
 <style>
 h1{color:green;}
-img{margin-left:42%}
+
+body{background-image:url(https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+background-position:center;
+background-size:cover;
+background-attachment:fixed;}
+
+.button{border:none;
+position:absolute;
+top:65px;
+left:15px;
+background-color:royalblue;
+color:white;
+padding:16px;}
+
+.menu{
+display:inline-block;}
+
+.menu-content{background-color:lightgrey;
+position:absolute;
+top:115px;
+left:15px;
+display:none;
+border:none;
+min-width:200px;
+padding:18px 20px;
+z-index:1;}
+
+.menu-content a{color:black;
+text-decoration:none;
+font-size:20px;}
+
+.menu:hover .button{background-color:blue;}
+
+.menu:hover .menu-content{display:block;}
+
+.menu-content a:hover{background-color:grey;}
+
+iframe{border:none;}
+
 </style>
 
 </head>
 
-<body bgcolor="#EEE">
+<body>
 
+<div class=menu>
+<button class=button>Menu</button>
+<div class=menu-content>
+<a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwjVguXg9bLgAhXIQ30KHdezBpYQFjAAegQIBBAC&url=https%3A%2F%2Fwww.ktdc.com%2F&usg=AOvVaw0Q0Uy9Tf2bEtWhQ0JOx1An" target=_blank>Home</a><br>
+<a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=2ahUKEwiFrdD76rLgAhVIeisKHfzyCWMQFjACegQICxAB&url=https%3A%2F%2Ftraveltriangle.com%2Fblog%2Fbest-places-to-visit-in-kerala%2F&usg=AOvVaw11Ldn6yZQYCCtehu7-CV97" target=_blank>Popular Tourist Spots</a>
+</div>
+</div>
+<center>
 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a5/Kerala_God%27s_Own_Country_Logo.svg/220px-Kerala_God%27s_Own_Country_Logo.svg.png" align="top" height=120px width=130px>
-
+</center>
 <center><h1>Kerala Tourism</h1><center>
 
 <hr>
@@ -23,8 +69,8 @@ img{margin-left:42%}
 
 <hr>
 
-<iframe src="/home/it47/frame1.html" align=left height=100% width=25% name=f1></iframe>
-<iframe src="/home/it47/frame3.html" align=right height=100% width=70% name=f2></iframe>
+<iframe src="/home/it47/frame1.html" align=left height=100% width=25% name=f1 ></iframe>
+<iframe src="/home/it47/newframe.html" align=right height=100% width=70% name=f2 ></iframe>
 
 </body>
 
